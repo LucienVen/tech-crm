@@ -1,0 +1,47 @@
+# Node
+node_modules/
+dist/
+temp/
+*.log
+pnpm-lock.yaml
+
+# Vite build
+dist/
+.vite/
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor folders and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Mac 系统文件
+.DS_Store
+
+# VS Code 特定缓存
+.vscode-test/
+
+# npm/pnpm/yarn 缓存和日志
+.npm/
+.pnpm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+
+# Env 配置
+.env.local
+.env.*.local
+.env
+
+# coverage（测试工具）
+coverage/
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.orig
+
