@@ -6,14 +6,14 @@
 </template>
 
 <script setup lang="ts">
-import { useUserStore } from '../stores/user'
-import { useRouter } from 'vue-router'
+import { useUserStore } from "../stores/user";
+import { useRouter } from "vue-router";
 
-const store = useUserStore()
-const router = useRouter()
+const store = useUserStore();
+const router = useRouter();
 
 const logout = () => {
-  store.logout()
-  router.push('/login')
-}
+  store.logout();
+  router.push("/Login2");
+};
 </script>

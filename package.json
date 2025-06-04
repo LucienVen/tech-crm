@@ -14,6 +14,7 @@
     "vuetify": "^3.6.0"
   },
   "devDependencies": {
+    "@types/node": "^22.15.29",
     "@vitejs/plugin-vue": "^5.2.4",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0",
