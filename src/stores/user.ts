@@ -1,15 +1,22 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 
-export const useUserStore = defineStore('user', {
-  state: () => ({ token: localStorage.getItem('token') || '' }),
+export const useUserStore = defineStore("user", {
+  state: () => ({
+    token: "",
+    username: "",
+    email: "",
+  }),
   actions: {
     login(token: string) {
-      this.token = token
-      localStorage.setItem('token', token)
+      this.token = token;
+      // 模拟用户数据
+      this.username = "Admin User";
+      this.email = "admin@example.com";
     },
     logout() {
-      this.token = ''
-      localStorage.removeItem('token')
+      this.token = "";
+      this.username = "";
+      this.email = "";
     },
   },
-})
+});
