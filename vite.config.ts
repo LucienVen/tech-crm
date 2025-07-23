@@ -14,4 +14,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "html", // ← 关键：输出目录设为 html
+    emptyOutDir: true,
+  },
 });
