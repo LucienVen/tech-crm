@@ -41,7 +41,7 @@ coverage/
 
 # Others
 *.swp
-*.bak
+# *.bak
 *.tmp
 *.orig
 
