@@ -15,7 +15,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "html", // ← 关键：输出目录设为 html
+    outDir: "dist",
     emptyOutDir: true,
   },
 });
