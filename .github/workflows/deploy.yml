@@ -36,7 +36,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "dist/"
-          target: "/home/lxt/nginx-docker/html"
+          target: "/home/lxt/nginx-docker/html/tech"
           strip_components: 1
 
       - name: Reload nginx container
